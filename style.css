@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #fdbfff;
+  color: #000;
+  line-height: 1.6;
+}
+
