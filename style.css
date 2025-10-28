@@ -68,7 +68,6 @@ main {
   justify-content: center;
   overflow: hidden;
 }
-
 .member1 { background-image: url("assets/Conrad1.webp"); }
 .member2 { background-image: url("assets/Archie.webp"); }
 .member3 { background-image: url("assets/Onel.webp"); }
