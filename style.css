@@ -56,3 +56,47 @@ header {
   justify-content: center;
   flex-wrap: wrap;
 }
+.member1 {
+  background-image: url("assets/Conrad1.webp");
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+.member2 {
+  background-image: url('assets/Archie.webp');
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+.member3 {
+  background-image: url('assets/Onel.webp');
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+.member4 {
+  background-image: url('assets/Junie.webp');
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
