@@ -78,40 +78,13 @@ main {
 .member4 { background-image: url("assets/Junie.webp"); }
 
 .work {
-  display: flex;
-  justify-content: space-between;
+padding: 60px 0px;
 }
 
-.work h2 {
-  text-align: right;
-}
-
-.container2 {
-  width: 30%;
-}
-
-.container p {
-  font-size: 4rem;
-  font-style: italic;
-  color: white;
-  position: relative;
-  top: -45px;
-  height: 15%;
-}
-
-.work1 {
-  background-image: url("https://m.media-amazon.com/images/I/71EfGD9TjWL._AC_UF894,1000_QL80_.jpg");
-}
-.work2 {
-  background-image: url("https://static01.nyt.com/images/2021/03/16/style/16SQUISHMALLOWS2/16SQUISHMALLOWS2-videoSixteenByNineJumbo1600.jpg");
-}
-.work3 {
-  background-image: url("https://pbs.twimg.com/media/EnVRRIOXYAAbN2c.jpg");
-}
 .work h2 {
   font-size: 40px;
   color: #ff1493;
-  text-align: right;
+  text-align: left;
 }
 
 .container2 {
