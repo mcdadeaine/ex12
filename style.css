@@ -10,10 +10,16 @@ body {
   line-height: 1.6;
 }
 header {
-}
-.site nave {
+  height: 75px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 100%;
+  padding: 0 50px;
+}
+
+.site-nav a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: 20px;
 }
