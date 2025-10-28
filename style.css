@@ -29,7 +29,7 @@ header {
   text-decoration: underline;
 }
 main {
-  width: 75vw;
+  width: 75%;
   margin: 0 auto;
 }
 .company {
@@ -59,7 +59,7 @@ main {
 }
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 .member1, .member2, .member3, .member4 {
@@ -91,7 +91,7 @@ padding: 60px 0px;
 
 .container2 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 .work1, .work2, .work3 {
@@ -121,7 +121,7 @@ padding: 60px 0px;
 footer {
   width: 100%;
   height: 300px;
-  background-color: #ff1493;
+  background-color: #ff69b4;
   color: white;
   margin-top: 80px;
   padding-top: 50px;
@@ -141,7 +141,7 @@ footer a:hover {
 
 
 .footer-content {
-  width: 75vw;
+  width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -158,7 +158,7 @@ footer a:hover {
 }
 
 .bottom-copywrite {
-  width: 57%;
+  width: 75%;
   height: 75px;
   display: flex;
   flex-direction: column;
