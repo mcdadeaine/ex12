@@ -104,3 +104,35 @@ main {
 .work3 {
   background-image: url("https://pbs.twimg.com/media/EnVRRIOXYAAbN2c.jpg");
 }
+.work h2 {
+  font-size: 40px;
+  color: #ff1493;
+  text-align: right;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.work1, .work2, .work3 {
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  color: pink;
+  font-size: 40px;
+}
+.work1 {
+  background-image: url("https://m.media-amazon.com/images/I/71EfGD9TjWL._AC_UF894,1000_QL80_.jpg");
+}
+.work2 {
+  background-image: url("https://static01.nyt.com/images/2021/03/16/style/16SQUISHMALLOWS2/16SQUISHMALLOWS2-videoSixteenByNineJumbo1600.jpg");
+}
+.work3 {
+  background-image: url("https://pbs.twimg.com/media/EnVRRIOXYAAbN2c.jpg");
+}
