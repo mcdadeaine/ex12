@@ -9,4 +9,11 @@ body {
   color: #000;
   line-height: 1.6;
 }
-
+header {
+}
+.site nave {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
