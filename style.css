@@ -46,14 +46,13 @@ header {
   text-align: left;
 }
 .team h2 {
-  font-size: 35px;
-  margin-bottom: 40px;
+  font-size: 40px;
+  margin: 40px 450px;
   color: #ff1493;
 }
 .team .container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
