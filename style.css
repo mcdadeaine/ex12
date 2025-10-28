@@ -5,7 +5,7 @@
 }
 body {
   font-family: Helvetica, sans-serif;
-  background-color: #fdbfff;
+  background-color: #fff0f5;
   color: #000;
   line-height: 1.6;
 }
@@ -15,6 +15,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 0 50px;
+  background-color: #ff69b4;
 }
 
 .site-nav a {
@@ -23,6 +24,10 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
+.company {
+  padding: 80px 50px;
+}
+
 .company h1 {
   font-size: 50px;
   margin-bottom: 20px;
@@ -33,4 +38,10 @@ header {
   font-size: 18px;
   line-height: 1.6;
   width: 800px;
+}
+
+.team {
+  padding: 80px 50px;
+  background-color: #ffe4e1;
+  text-align: left;
 }
