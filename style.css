@@ -103,16 +103,18 @@ padding: 60px 0px;
   align-items: flex-end;
   justify-content: center;
   overflow: hidden;
-  color: pink;
-  font-size: 40px;
+  font-size: 60px;
 }
 .work1 {
+  color:black;
   background-image: url("https://m.media-amazon.com/images/I/71EfGD9TjWL._AC_UF894,1000_QL80_.jpg");
 }
 .work2 {
+  color: white;
   background-image: url("https://static01.nyt.com/images/2021/03/16/style/16SQUISHMALLOWS2/16SQUISHMALLOWS2-videoSixteenByNineJumbo1600.jpg");
 }
 .work3 {
+ color:black;
   background-image: url("https://pbs.twimg.com/media/EnVRRIOXYAAbN2c.jpg");
 }
 
