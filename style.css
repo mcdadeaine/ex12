@@ -136,3 +136,66 @@ main {
 .work3 {
   background-image: url("https://pbs.twimg.com/media/EnVRRIOXYAAbN2c.jpg");
 }
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #ff1493;
+  color: white;
+  margin-top: 80px;
+  padding-top: 50px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 50px;
+}
+
+footer a:hover {
+  color: lightpink;
+  text-decoration: underline;
+}
+
+
+.footer-content {
+  width: 75vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-nav {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom-copywrite {
+  width: 75%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer-button {
+  font-size: 0.8rem;
+  padding: 1em 2em;
+  border-radius: 1.5rem;
+  color: black;
+  background: white;
+  text-align: left;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: right;
+  color: white;
+}
