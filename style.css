@@ -18,8 +18,19 @@ header {
 }
 
 .site-nav a {
-text-decoration: none;
-color: black;
-font-weight: bold;
-font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.company h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #ff1493;
+}
+
+.company p {
+  font-size: 18px;
+  line-height: 1.6;
+  width: 800px;
 }
