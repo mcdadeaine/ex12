@@ -24,9 +24,13 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
+main {
+  width: 75vw;
+  margin: 0 auto;
+}
 .company {
-  padding: 40px 50px;
-  margin: 40px 450px;
+  padding: 40px 0;
+  text-align: left;
 }
 
 .company h1 {
@@ -38,26 +42,23 @@ header {
 .company p {
   font-size: 18px;
   line-height: 1.6;
-  width: 800px;
+  max-width: 800px;
 }
 
 .team {
-  padding: 0px 50px;
-  text-align: left;
+  padding: 60px 0px;
 }
 .team h2 {
   font-size: 40px;
-  margin: 40px 450px;
   color: #ff1493;
+  text-align: left;
 }
 .container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
-.member1 {
-  background-image: url("assets/Conrad1.webp");
+.member1, .member2, .member3, .member4 {
   width: 300px;
   height: 400px;
   background-size: cover;
@@ -67,36 +68,8 @@ header {
   justify-content: center;
   overflow: hidden;
 }
-.member2 {
-  background-image: url('assets/Archie.webp');
-  width: 300px;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  overflow: hidden;
-}
-.member3 {
-  background-image: url('assets/Onel.webp');
-  width: 300px;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  overflow: hidden;
-}
-.member4 {
-  background-image: url('assets/Junie.webp');
-  width: 300px;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  overflow: hidden;
-}
+
+.member1 { background-image: url("assets/Conrad1.webp"); }
+.member2 { background-image: url("assets/Archie.webp"); }
+.member3 { background-image: url("assets/Onel.webp"); }
+.member4 { background-image: url("assets/Junie.webp"); }
