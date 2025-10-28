@@ -24,6 +24,10 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
+.site-nav a:hover {
+    color: lightpink;
+  text-decoration: underline;
+}
 main {
   width: 75vw;
   margin: 0 auto;
